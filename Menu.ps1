@@ -35,8 +35,8 @@ do {
     $opcion = Read-Host "Selecciona una opción (0-4)"
 
     switch ($opcion) {
-        '1' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Oryzon-SS/refs/heads/main/JarParser.ps1" }
-        '2' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Oryzon-SS/refs/heads/main/BamParser.ps1" }
+        '1' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Luvi-SS/refs/heads/main/Jarparser.ps1" }
+        '2' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Luvi-SS/refs/heads/main/Bamparser.ps1" }
         '3' { Ejecutar-Script "" }
         '4' { Ejecutar-Script "" }
         '0' {
