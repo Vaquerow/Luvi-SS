@@ -3,10 +3,10 @@ Clear-Host
 function Mostrar-Menu {
     Write-Host ""
     Write-Host "======= MENÚ DE SCRIPTS ========" -ForegroundColor DarkGreen
-    Write-Host "1. Analizador de Jars"
-    Write-Host "2. Analizador de Exes"
-    Write-Host "3. EN DESAROLLO"
-    Write-Host "4. Analizador de DLLs (EN DESAROLLO)"
+    Write-Host "1. Prefetch analyzer"
+    Write-Host "2. Bamparser"
+    Write-Host "3. Prefetch analyzer 2"
+    Write-Host "4. Jarparser 2"
     Write-Host "0. Salir"
     Write-Host "===============================" -ForegroundColor DarkGreen
 }
@@ -37,8 +37,8 @@ do {
     switch ($opcion) {
         '1' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Luvi-SS/refs/heads/main/Jarparser.ps1" }
         '2' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Luvi-SS/refs/heads/main/Bamparser.ps1" }
-        '3' { Ejecutar-Script "" }
-        '4' { Ejecutar-Script "" }
+        '3' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Luvi-SS/refs/heads/main/prefetchparser.ps1" }
+        '4' { Ejecutar-Script "https://raw.githubusercontent.com/Vaquerow/Luvi-SS/refs/heads/main/jarparser2.ps1" }
         '0' {
             Write-Host "Saliendo, Adios!" -ForegroundColor DarkGreen
             $seguir = $false
